@@ -1,0 +1,76 @@
+.header-btn{
+    float:right;
+    margin-left: 70%;
+}
+.btn-primary{
+    background-color: #ac2525c9;
+    border-color: none;
+}
+.jumbotron{
+    padding: 54px 18px 120px 188px;
+color: white;
+background-image: url("bg-image.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center center;
+}
+.jumbotron > .overlay {
+    margin: 71px 0px 275px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#0000008c;
+    z-index: 1;
+}
+.jumbotron > .position {
+    position: relative;
+    z-index: 2;
+}
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.lead{
+    padding: 0px 0px 50px 0px;
+}
+.col-md-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.col-md-2{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.form-control{
+    border-radius: 5px 0px 0px 5px;
+}
+.custom-select{
+    border-radius: 0px 0px 0px 0px;
+}
+#btn{
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lavender;
+}
+.position{
+    position: relative;
+    top: 0px;
+
+}
+.keywords{
+    padding: 20px 0px 0px 0px;
+}
+
+/*@media (min-width: 576px)
+.jumbotron {
+    /* padding: 4rem 2rem; */
+    
+}
